@@ -13,3 +13,16 @@ Frontend: Streamlit
 Backend: Python (TensorFlow/Keras)
 ML Model: Pre-trained .keras model (stored using Git LFS)
 Deployment: AWS EC2
+<br>
+Structure:-<br>
+plant-disease-detection/
+│
+├── model/
+│   └── plant_disease_model.keras   # Trained ML model
+│
+├── app.py                          # Streamlit frontend application
+├── requirements.txt                 # Python dependencies
+├── Dockerfile                       # For containerized deployment (Optional)
+├── README.md                        # Project documentation
+└── utils/
+    └── preprocessing.py             # Image preprocessing functions
