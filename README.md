@@ -15,14 +15,13 @@ ML Model: Pre-trained .keras model (stored using Git LFS)
 Deployment: AWS EC2
 <br>
 Structure:-<br>
-plant-disease-detection/
+plant-disease-detection/<br>
 │
-├── model/
-│   └── plant_disease_model.keras   # Trained ML model
-│
-├── app.py                          # Streamlit frontend application
-├── requirements.txt                 # Python dependencies
-├── Dockerfile                       # For containerized deployment (Optional)
-├── README.md                        # Project documentation
-└── utils/
-    └── preprocessing.py             # Image preprocessing functions
+├── model/<br>
+│   └── plant_disease_model.keras   # Trained ML model<br>
+│<br>
+├── app.py                          # Streamlit frontend application<br>
+├── requirements.txt                 # Python dependencies<br>
+├── README.md                        # Project documentation<br>
+└── utils/<br>
+    └── preprocessing.py             # Image preprocessing functions<br>
