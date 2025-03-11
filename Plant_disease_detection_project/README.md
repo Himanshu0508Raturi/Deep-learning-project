@@ -11,7 +11,7 @@ An AI-powered web application that detects plant diseases from images using a de
 ⚙️ Tech Stack<br>
 Frontend: Streamlit<br>
 Backend: Python (TensorFlow/Keras)<br>
-ML Model: Pre-trained .keras model (stored using Git LFS)<br>
+ML Model: Implement Convolution Neural Network from scratch.<br>
 Deployment: AWS EC2<br>
 <br>
 Structure:-<br>

@@ -44,7 +44,7 @@ if(app_mode=="Home"):
     """)
     st.write("Github: https://github.com/Himanshu0508Raturi/Deep-learning-project.git")
     st.write("LinkedIn: https://www.linkedin.com/in/himanshu-raturi-99ab0728b/")
-    st.write("-Trained and deployed by Himanshu Raturi")
+    st.markdown("-Trained and deployed by Himanshu Raturi")
 
 #About Project
 elif(app_mode=="About"):
